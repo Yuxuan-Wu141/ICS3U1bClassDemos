@@ -9,7 +9,10 @@ import codehs.*;
 public class LiveHackProblem1 extends ConsoleProgram{
 
     public void run() {
-        System.out.println("This is my first program");
+      double a = readDouble("The a value is ");
+      double A = Math.pow(a,2) * Math.sqrt(3) / 4;
+      System.out.println("The face area of a rectangular tetrahedron is " + A);
+      
 
     }
 }
